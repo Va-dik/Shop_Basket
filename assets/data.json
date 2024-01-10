@@ -1,0 +1,29 @@
+{
+  "general_basket_list": [
+    {
+      "name": "Повседневная",
+      "products": [
+        {
+          "name": "Bread",
+          "price": 2,
+          "quantity": 2
+        },
+        {
+          "name": "Milk",
+          "price": 1.5,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "user_basket_list": [
+    {
+      "username": "Vadim",
+      "basket": []
+    },
+    {
+      "username": "Timur",
+      "basket": []
+    }
+  ]
+}
