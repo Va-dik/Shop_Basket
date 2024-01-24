@@ -1,4 +1,4 @@
-enum ScreenState {
+enum ScreenStateEnum {
   preload,
   isLoading,
   ready,

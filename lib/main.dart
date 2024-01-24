@@ -1,21 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:shop_basket/src/features/basket_list_page/presentations/basket_list_page.dart';
+import 'package:shop_basket/src/components/imports/import_headers.dart';
 
 void main() => runApp(const MyApp());
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'SHOP BASKET',
-      home:  BasketListPage(),
-    );
-  }
+  Widget build(BuildContext context) => MaterialApp(
+        theme: ThemeData(useMaterial3: true),
+        title: 'SHOP BASKET',
+        home: const BasketListPage(),
+      );
 }
